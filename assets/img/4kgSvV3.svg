@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="3580px" height="727px" viewBox="0 0 3580 727" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="2.24956804%" y1="53.0174767%" x2="100%" y2="19.844614%" id="linearGradient-1">
+            <stop stop-color="#0036AC" offset="0%"></stop>
+            <stop stop-color="#005BFA" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.19" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="3.94610969%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.0900000036" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.06" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="101.402468%" y1="50%" x2="30.3836853%" y2="50%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.15" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="107.834959%" y1="50%" x2="30.3836853%" y2="50%" id="linearGradient-6">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-7">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.04" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-8">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.03" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Group-6" fill="url(#linearGradient-1)">
+                <path d="M0,0 L3580,0 L3580,704 C2850.62086,637.341072 2301.24905,602.915069 1931.88456,600.721994 C1889.26462,600.468941 1832.61994,600.721994 1790,600.721994 C1193.33333,600.721994 596.666667,635.147996 0,704 L0,0 Z" id="Rectangle-4"></path>
+            </g>
+            <g id="Group-2" transform="translate(3058.000000, 102.000000)">
+                <rect id="Rectangle-7" fill="url(#linearGradient-2)" transform="translate(261.500000, 353.500000) rotate(-24.000000) translate(-261.500000, -353.500000) " x="64" y="157" width="395" height="393" rx="4"></rect>
+                <rect id="Rectangle-8" fill="url(#linearGradient-3)" transform="translate(285.000000, 125.500000) rotate(-33.000000) translate(-285.000000, -125.500000) " x="177" y="46" width="216" height="159" rx="23"></rect>
+                <ellipse id="Oval-6" fill-opacity="0.0500000007" fill="#FFFFFF" cx="71.5" cy="161" rx="65.5" ry="48"></ellipse>
+                <path d="M54.3786292,234.221765 L111.60871,318.427424 C112.540044,319.797745 112.184175,321.663607 110.813853,322.594941 C110.316452,322.932998 109.728929,323.113754 109.127523,323.113754 L-5.33263863,323.113754 C-6.98949288,323.113754 -8.33263863,321.770608 -8.33263863,320.113754 C-8.33263863,319.512348 -8.15188235,318.924824 -7.81382591,318.427424 L49.4162547,234.221765 C50.3475892,232.851443 52.2134503,232.495574 53.5837722,233.426908 C53.89644,233.639412 54.1661257,233.909097 54.3786292,234.221765 Z" id="Triangle-Copy" fill="url(#linearGradient-4)" transform="translate(51.897589, 278.010777) rotate(-96.000000) translate(-51.897589, -278.010777) "></path>
+            </g>
+            <g id="Group" transform="translate(0.000000, 78.000000)">
+                <ellipse id="Oval-4" fill="url(#linearGradient-5)" opacity="0.686567164" cx="253" cy="253.5" rx="253" ry="253.5"></ellipse>
+                <circle id="Oval-4" fill="url(#linearGradient-6)" opacity="0.686567164" cx="437" cy="358" r="172"></circle>
+                <rect id="Rectangle-6" fill="url(#linearGradient-7)" transform="translate(601.500000, 140.500000) rotate(51.000000) translate(-601.500000, -140.500000) " x="539" y="78" width="125" height="125" rx="9"></rect>
+                <path d="M661.240734,220.543101 L691.812764,281.687161 C692.553732,283.169097 691.953058,284.971116 690.471123,285.712084 C690.054557,285.920367 689.595217,286.028802 689.129482,286.028802 L627.985422,286.028802 C626.328568,286.028802 624.985422,284.685656 624.985422,283.028802 C624.985422,282.563067 625.093857,282.103727 625.30214,281.687161 L655.87417,220.543101 C656.615138,219.061165 658.417157,218.460492 659.899093,219.20146 C660.479675,219.491751 660.950442,219.962519 661.240734,220.543101 Z" id="Triangle" fill="url(#linearGradient-8)" transform="translate(658.557781, 252.456443) rotate(-307.000000) translate(-658.557781, -252.456443) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
