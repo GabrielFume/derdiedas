@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="assets/icons/style.css">
 
   <!-- Compiled and minified JavaScript -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
   <style>
@@ -138,16 +139,16 @@
       <a href="#" class="brand-logo orange-text accent-2"><!-- <img src="/assets/img/logo_gris.png" width="150" height="100" alt="Logo"> --> Logo</a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
-        <li routerLinkActive="active" ><a routerLink="/index" >Inicio</a></li>
-        <li><a href="#">Escuela</a></li>
-        <li><a href="#">Cursos</a></li>
-        <li routerLinkActive="active"><a routerLink="/contacto" >Contacto</a></li>
+        <li routerLinkActive="active" ><a routerLink="/index" style="color:#000;">Inicio</a></li>
+        <li><a href="#" style="color:#000;">Escuela</a></li>
+        <li><a href="#" style="color:#000;">Cursos</a></li>
+        <li routerLinkActive="active"><a routerLink="/contacto" style="color:#000;">Contacto</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
-        <li routerLinkActive="active"><a routerLink="/index" >Inicio</a></li>
+        <li routerLinkActive="active"><a routerLink="/index" style="color:#000;">Inicio</a></li>
         <li><a href="#">Servicios</a></li>
         <li><a href="#">Presupuesto</a></li>
-        <li routerLinkActive="active"><a routerLink="/contacto">Contacto</a></li>
+        <li routerLinkActive="active"><a routerLink="/contacto" style="color:#000;">Contacto</a></li>
       </ul>
     </div>
   </nav>
@@ -356,7 +357,7 @@
           <img src="/assets/img/logo_gris.png" width="150" height="150" alt="Logo">
         </div>
         <div class="col s12 m2 l3 offset-m1 offset-l1">
-          <p class="black-text">Piñas'Cake es la mejor opcion que tienes para llenar de alegria tus fiestas con los postres mas deliciones que puedas imaginar</p>
+          <p class="black-text">Lorem ipsu, Lorem ipsu Lorem ipsu Lorem ipsu, Lorem ipsu, Lorem ipsu, Lorem ipsu</p>
           <!-- <a class="waves-effect grey lighten-4 btn pulse center" routerLink="/contacto" style="color:#000000;">Contactanos</a> -->
         </div>
         <div class="col l4 offset-m1 offset-l1">
@@ -375,12 +376,12 @@
       </div>
     </div>
   </footer>
-
-
-
-
-
-
   
 </body>
+
+<script>
+  $(document).ready(function() {
+    $('select').material_select();
+  });
+</script>
 </html>
