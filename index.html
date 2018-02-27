@@ -16,7 +16,7 @@
   <script src="assets/js/home.js"></script>
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
   <link rel="stylesheet" href="assets/js/flexslider/jquery.flexslider-min.js"> -->
-<body>
+<body class="body-home jarallax">
   <!--The content below is only a placeholder and can be replaced.-->
 
 <!-- Nav var -->
@@ -69,21 +69,21 @@
         <div class="row div-porque">
           <div class="col s12 m6 l6">
             <div class="img-pasos">
-              <h4 class="orange-text accent-2 regular">Sigue estos pasos<br> y tendras mejores resultados</h4>
+              <h4 class="white-text regular">Sigue estos pasos<br> y tendras mejores resultados</h4>
                   <br>
                   <ul>
                     <li>
                       <h6 class="orange-text accent-2">lorem ipsu</h6>
-                      <span class="grey-text thin">I am a very simple card. I am good at containing small bits of information.
+                      <span class="white-text thin">I am a very simple card. I am good at containing small bits of information.
                         I am convenient because I require little markup to use effectively. 
                       </span>
                       <br>
                       <h6 class="orange-text accent-2">lorem ipsu</h6>
-                      <span class="grey-text thin">I am a very simple card. I am good at containing small bits of information.
+                      <span class="white-text thin">I am a very simple card. I am good at containing small bits of information.
                         I am convenient because I require little markup to use effectively. 
                       </span><br>
                       <h6 class="orange-text accent-2">lorem ipsu</h6>
-                      <span class="grey-text thin">I am a very simple card. I am good at containing small bits of information.
+                      <span class="white-text thin">I am a very simple card. I am good at containing small bits of information.
                         I am convenient because I require little markup to use effectively. 
                       </span>
                     </li>
@@ -242,6 +242,44 @@
     <section class="section-partners">
       <div class="container">
         <div class="row">
+          <div class="services center" style="padding-bottom: 4%;">
+            <h3 class="orange-text accent-2 regular">Ellos nos certifican</h3>
+          </div>
+          
+            <div class="col s12 m12 row" >
+              <div class="patreon-footer-ad">
+                <a href="">
+                  <img src="https://s13.postimg.org/q0lliz153/icons8-logo-opencollective.png" alt="Google Mail" >
+                </a>
+              </div>
+              <div class="patreon-footer-ad">
+                <a href="">
+                  <img src="assets/logos/google.png" alt="Google Mail" width="100" height="100">
+                </a>
+              </div>
+              <div class="patreon-footer-ad">
+                <a href="">
+                  <img src="assets/logos/Twitter.png" alt="Google Mail" width="100" height="100">
+                </a>
+              </div>
+              <div class="patreon-footer-ad">
+                <a href="">
+                  <img src="assets/logos/Instagram.png" alt="Google Mail" width="100" height="100">
+                </a>
+              </div>
+              <div class="patreon-footer-ad">
+                <a href="">
+                  <img src="https://s13.postimg.org/q0lliz153/icons8-logo-opencollective.png" alt="Google Mail" >
+                </a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- <section class="section-partners">
+      <div class="container">
+        <div class="row">
           <div class="services center" >
             <h3 class="orange-text accent-2 regular">Ellos confian en nosotros</h3>
           </div>
@@ -256,7 +294,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
   <footer class="page-footer" style="background-color: #e7e7e7;">
     <div class="container">
@@ -285,13 +323,30 @@
     </div>
   </footer>
   
+  <!-- JARALLAX -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jarallax/1.9.0/jarallax.min.js"></script>
+
+    <!-- complementos -->
+  <script src="assets/js/jquery.nicescroll.js"></script>
 </body>
 
 <script >
 
    $(document).ready(function() {
-    $('select').material_select();
+    
+
+     $("html").niceScroll({cursorwidth:"10px" , zindex:"999" , cursorborder:"0px", cursorborderradius:"0px"});
+
+     $(".listTotal-containUl , .userDetail").niceScroll({cursorwidth:"8px" , zindex:"0" , cursorborder:"0px", cursorborderradius:"0px", cursorcolor: "#D8D8D8"});
+
+     $('select').material_select();
+
      $('.carousel').carousel();
+
+     $('.jarallax').jarallax ({
+            velocidad : 0.2
+        })
+     
   });
 
 //  // Can also be used with $(document).ready()

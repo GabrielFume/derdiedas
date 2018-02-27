@@ -1,3 +1,30 @@
+ 
+ .body-home {
+    background-color: #fff;
+    background-image: url(../img/fondo_1.png);
+    background-position: 10% 3%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+body {
+    font-size: 16px;
+    margin: 0;
+    position: relative;
+} 
+  .parallax { 
+    /* The image used */
+    background-image: url("../img/fondo_1.png");
+
+    /* Set a specific height */
+   height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
  /* h1 */
   .t1{
     font-size: 36px;
@@ -67,28 +94,23 @@
 }
 
 .section-whatweofert{
-    background-image: url('../img/WhatWeDpBGCompress.png');
-    background-position: center center;     
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-    margin-top: 0px;
-    margin-bottom: 0px;
+/**/
+
     padding: 130px 0px 160px 0px;
 }
 
 .section-pasos{
     padding-top: 8%;
     padding-bottom: 8%;
-    background-color: #f9f9f9;
+    /*background-color: #f9f9f9;*/
 }
 
 .section-services{
-    background-image: url('../img/4kgSvV3.svg');
-    /* background-position: center center; */
+    /* background-image: url('../img/4kgSvV3.svg');
+       background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s; */
 
 }
 
