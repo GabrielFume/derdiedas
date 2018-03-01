@@ -1,0 +1,96 @@
+ /* h1 */
+  .t1{
+    font-size: 36px;
+  }
+  /* h2 */
+  .t2{
+    font-size: 30px;
+  }
+  /* h3 */
+  .t3{
+    font-size: 24px;
+  }
+  /* h4 */
+  .normal{
+    font-size: 20px;
+  }
+  /* h5 */
+  .small{
+    font-size: 16px;
+  }
+  /* h6 */
+  .smaller{
+    font-size: 14px;
+  }
+
+
+/* Smartphones */
+@media screen and (min-width: 600px) {
+
+ /* h1 */
+  .t1{
+    font-size: 48px;
+    color: #000;
+  }
+  /* h2 */
+  .t2{
+    font-size: 44px;
+    color: #000;
+  }
+  /* h3 */
+  .t3{
+    font-size: 40px;
+    color: #000;
+  }
+  /* h4 */
+  .normal{
+    font-size: 18px;
+    color: #fff;
+  }
+  /* h5 */
+  .small{
+    font-size: 16px;
+    color: #000;
+  }
+  /* h6 */
+  .smaller{
+    font-size: 14px;
+    color: #000;
+  }
+}
+
+
+/* Smartphones */
+@media screen and (min-width: 321px) and (max-width: 599px) {
+
+ /* h1 */
+  .t1{
+    font-size: 36px;
+    color: #000;
+  }
+  /* h2 */
+  .t2{
+    font-size: 30px;
+    color: #000;
+  }
+  /* h3 */
+  .t3{
+    font-size: 24px;
+    color: #000;
+  }
+  /* h4 */
+  .normal{
+    font-size: 18px;
+    color: #fff;
+  }
+  /* h5 */
+  .small{
+    font-size: 16px;
+    color: #000;
+  }
+  /* h6 */
+  .smaller{
+    font-size: 14px;
+    color: #000;
+  }
+}

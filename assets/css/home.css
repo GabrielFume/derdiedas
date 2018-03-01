@@ -2,9 +2,10 @@
  .body-home {
     background-color: #fff;
     background-image: url(../img/fondo_1.png);
-    background-position: 10% 3%;
+    background-position: 0% 4%;
     background-repeat: no-repeat;
     background-size: 100%;
+    background-size: inherit;
 }
 body {
     font-size: 16px;
