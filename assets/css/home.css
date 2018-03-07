@@ -37,6 +37,7 @@ body {
   /* h3 */
   .t3{
     font-size: 24px;
+    color:#949494;
   }
   /* h4 */
   .normal{
@@ -143,7 +144,7 @@ body {
 .section-partners{
     padding-top: 4%;
     padding-bottom: 4%;
-    background-color: #f9f9f9;
+    
 }
 
 .patreon-footer-ad {
@@ -213,12 +214,12 @@ body {
   /* h3 */
   .t3{
     font-size: 40px;
-    color: #000;
+    color:#949494;
   }
   /* h4 */
   .normal{
     font-size: 18px;
-    color: #fff;
+    color: #08bed8;
   }
   /* h5 */
   .small{
@@ -228,7 +229,7 @@ body {
   /* h6 */
   .smaller{
     font-size: 14px;
-    color: #000;
+    color: #949494;
   }
 
 .section-whatweofert{
@@ -281,15 +282,40 @@ body {
 }*/
 
 .section-services{
+  
     padding-top: 2%;
     padding-bottom: 5%;
     background-color: #f9f9f9;
+    -webkit-transform: skewY(-3deg);
+    
 }
 
 .section-services .services{
     padding: 2% 0% 2% 0%;
 
 }
+
+.section-socialmedia{
+
+  padding-top: 2%;
+  padding-bottom: 5%;
+  background-color: #f9f9f9;
+  background-image: linear-gradient(222deg,#2fcbf5 0,#39caf2 33%,#2fcbf5 47%,#2fcbf5 84%,#2fcbf5 100%);
+
+}
+
+.u-background-skewed::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 15%;
+    z-index: 1;
+    display: block;
+    content: '';
+    background-color: #f6faff;
+    -webkit-transform: skewY(-3deg);
+    transform: skewY(-3deg);
 
 /*                   */
 /* Seccion Servicies */
