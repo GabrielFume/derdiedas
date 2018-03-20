@@ -1,0 +1,46 @@
+.contactanos{
+
+    padding: 1.5rem .25rem 2.25rem;
+    color: #fff;
+    font-family: cooper_hewittmedium;
+    background: #1c3643;
+    background-image: url(../img/frankfurt_1.jpg);
+    background-size: cover;
+    background-position: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: box;
+    display: flex;
+    -webkit-box-align: center;
+    -o-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -o-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 351px;
+}
+
+.contactanos::before {
+    content: "";
+    background: #8e8e8e;
+    display: block;
+    position: absolute;
+    margin-top: 0.5%;
+    width: 100%;
+    height: 43%;
+    opacity: 0.7;
+}
+
+.patreon-footer-ad {
+    display: inline-block;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.patreon-footer-ad img {
+    max-width: 180px;
+    max-height: 100%;
+}
