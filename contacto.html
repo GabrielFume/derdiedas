@@ -8,46 +8,59 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link rel="stylesheet" href="assets/icons/style.css">
   <link rel="stylesheet" href="assets/css/contacto.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
 
   <!-- <link rel="stylesheet" href="assets/js/flexslider/flexslider.css"> -->
 
-  <!-- Compiled and minified JavaScript -->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-  <script src="assets/js/home.js"></script>
+ 
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
   <link rel="stylesheet" href="assets/js/flexslider/jquery.flexslider-min.js"> -->
 <body>
   <!--The content below is only a placeholder and can be replaced.-->
 
 <!-- Nav var -->
+<header id="header">
+  <nav>
+    <div class="nav-wrapper">
+            <span id="brand">
+                  <a href="index.html" class=" orange-text accent-2">Logo</a>
+            </span>
 
-  <nav style="background-color: #fff; color:#000; ">
-    <div class="nav-wrapper container">
-      <a href="#" class="brand-logo orange-text accent-2"><!-- <img src="/assets/img/logo_gris.png" width="150" height="100" alt="Logo"> --> Logo</a>
-      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <!-- <li routerLinkActive="active" ><a routerLink="/index" style="color:#000;">Inicio</a></li> -->
-        <li><a href="index.html" style="color:#000;">Inicio</a></li>
-        <!-- <li><a href="home2.html" style="color:#000;">inicio 2</a></li> -->
-        <li><a href="equipo.html" style="color:#000;">Nosotros</a></li>
-        <li><a href="academia.html" style="color:#000;">Cursos</a></li>
-        <li><a href="contacto.html" style="color:#000;">Contacto</a></li>
-      </ul>
-      <ul class="side-nav" id="mobile-demo">
-        <li routerLinkActive="active"><a routerLink="/index" style="color:#000;">Inicio</a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Presupuesto</a></li>
-        <li routerLinkActive="active"><a routerLink="/contacto" style="color:#000;">Contacto</a></li>
-      </ul>
+            <ul id="menu">
+                  <li><a href="index.html" style="color:#000;">Inicio</a></li>
+                  <li><a href="equipo.html" style="color:#000;">Nosotros</a></li>
+                  <li><a href="academia.html" style="color:#000;">Cursos</a></li>
+                  <li><a href="contacto.html" style="color:#000;">Contacto</a></li>
+            </ul>
+
+            <div id="toggle">
+                  <div class="span" id="one"></div>
+                  <div class="span" id="two"></div>
+                  <div class="span" id="three"></div>
+            </div>
     </div>
   </nav>
+</header>
 
-  <section class="contactanos" ">
+      <div id="resize">
+            <ul id="menu">
+                  <li><a href="index.html" style="color:#000;">Inicio</a></li>
+                  <li><a href="equipo.html" style="color:#000;">Nosotros</a></li>
+                  <li><a href="academia.html" style="color:#000;">Cursos</a></li>
+                  <li><a href="contacto.html" style="color:#000;">Contacto</a></li>
+            </ul>
+      </div>
+
+      <!-- <div class="content">
+            <h1>Smooth Fade-Up Navigation</h1>
+      </div> -->
+
+      
+  <!-- <section class="contactanos" ">
     <div class="title-equipo">
         <h2 class="t2 center thin">Contactanos</h2>
     </div>
-  </section>
+  </section> -->
 
 
   <section style=" background-image: url(assets/img/Circulo.png); background-color:#f3f3f3;padding-top:5%;padding-bottom:5%; "  >
@@ -189,7 +202,26 @@
   
 </body>
 
+ <!-- Compiled and minified JavaScript -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="assets/js/home.js"></script>
+  <script src="assets/js/jquery.nicescroll.js"></script>
+  <script src="assets/js/headroom.min.js"></script>
+  <!-- <script src="assets/js/menu.js"></script> -->
+
 <script >
+
+$(function(){
+
+var header = document.getElementById("header");
+// construct an instance of Headroom, passing the element
+var headroom  = new Headroom(header);
+// initialise
+headroom.init();
+
+});
+
 
    $(document).ready(function() {
     $('select').material_select();
@@ -218,6 +250,19 @@ var mapCanvas = document.getElementById("map");
 }
  
 </script>
+
+
+<script>
+
+      $("#toggle").click(function() {
+
+      $(this).toggleClass('on');
+      $("#resize").toggleClass("active");
+
+      });
+
+
+      </script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBrZaMy2Bojn_Y5V8Eb50WuqAJFhEtRCko&callback=myMap"></script>
 </html>
