@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <link rel="stylesheet" href="assets/icons/style.css">
   <link rel="stylesheet" href="assets/css/home.css">
+  
   <!-- <link rel="stylesheet" href="assets/js/flexslider/flexslider.css"> -->
 
   <!-- Compiled and minified JavaScript -->
@@ -20,8 +21,8 @@
   <!--The content below is only a placeholder and can be replaced.-->
 
 <!-- Nav var -->
-
-  <nav style="background-color: #fff; color:#000; ">
+ 
+  <nav class="" style="background-color: #fff; color:#000; ">
     <div class="nav-wrapper container">
       <a href="#" class="brand-logo orange-text accent-2"><!-- <img src="/assets/img/logo_gris.png" width="150" height="100" alt="Logo"> --> Logo</a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
@@ -371,9 +372,20 @@
 
     <!-- complementos -->
   <script src="assets/js/jquery.nicescroll.js"></script>
+  <script src="assets/js/headroom.min.js"></script>
 </body>
 
 <script >
+
+  $(function(){
+
+var header = document.querySelector(".headroom");
+// construct an instance of Headroom, passing the element
+var headroom  = new Headroom(header);
+// initialise
+headroom.init();
+
+});
 
    $(document).ready(function() {
     

@@ -153,7 +153,7 @@ nav #menu li a {
 /* Efectos del menu */
 .headroom {
     will-change: transform;
-    transition: transform 200ms linear;
+    transition: transform 0.25s ease-in-out 0s;
 }
 
 /* Efectos del menu */
