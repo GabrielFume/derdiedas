@@ -512,3 +512,86 @@ body {
     max-width: 180px;
     max-height: 100%;
 }}
+
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+
+
+/*
+  MEDIA QUERIES
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------*/
+@media screen and (max-width: 1920px){
+
+}
+
+@media screen and (max-width: 1600px){
+
+
+
+}
+
+      
+@media screen and (max-width: 1447px){
+
+
+}
+
+        
+@media screen and (max-width: 1297px){
+
+
+
+}
+      
+@media screen and (max-width: 1120px){
+
+
+}
+
+// Large devices (desktops, 62em and up)
+@media screen and (max-width: 991px){
+
+
+
+}   
+@media screen and (max-width: 835px){
+
+}
+
+// Medium devices (tablets, 48em and up)
+@media screen and (max-width: 769px){
+
+}
+//MEDIA QUERIE ESPECIAL POR ZONEMAIN
+@media screen and (max-width: 729px){
+
+}
+@media screen and (max-width: 630px){
+
+
+} 
+
+@media screen and (max-width: 450px){
+
+
+}
+// Small devices (landscape phones, 415px and up)
+@media screen and (max-width: 415px){
+  
+}
