@@ -1,0 +1,333 @@
+ /* h1 */
+  .t1{
+    font-size: 36px;
+  }
+  /* h2 */
+  .t2{
+    font-size: 30px;
+  }
+  /* h3 */
+  .t3{
+    font-size: 24px;
+  }
+  /* h4 */
+  .normal{
+    font-size: 20px;
+  }
+  /* h5 */
+  .small{
+    font-size: 16px;
+  }
+  /* h6 */
+  .smaller{
+    font-size: 14px;
+  }
+
+
+@media (min-width: 320px) {
+
+
+      /* h1 */
+  .t1{
+    font-size: 48px;
+    color: #000;
+  }
+  /* h2 */
+  .t2{
+    font-size: 44px;
+    color: #000;
+  }
+  /* h3 */
+  .t3{
+    font-size: 40px;
+    color:#949494;
+    text-align: center;
+  }
+
+  .t4{
+    font-size: 24px;
+    color:#949494;
+    text-align: center;
+  }
+  /* h4 */
+  .normal{
+    font-size: 18px;
+    color: #08bed8;
+  }
+  /* h5 */
+  .small{
+    font-size: 16px;
+    color: #000;
+  }
+  /* h6 */
+  .smaller{
+    font-size: 14px;
+    color: #949494;
+  }
+
+
+}
+
+@media screen and (min-width: 600px) {
+  
+  body{
+   background-color: #f3f3f3;
+  }
+
+  /* h1 */
+  .t1{
+    font-size: 48px;
+    color: #000;
+  }
+  /* h2 */
+  .t2{
+    font-size: 44px;
+    color: #000;
+  }
+  /* h3 */
+  .t3{
+    font-size: 40px;
+    color: #08bed8;
+    text-align: center;
+  }
+
+  .t4{
+    font-size: 24px;
+    color:#949494;
+    text-align: center;
+  }
+  /* h4 */
+  .normal{
+    font-size: 18px;
+    color: #08bed8;
+  }
+  /* h5 */
+  .small{
+    font-size: 16px;
+    color: #000;
+  }
+  /* h6 */
+  .smaller{
+    font-size: 14px;
+    color: #949494;
+  }
+
+  .title-section{
+    background-color:#f3f3f3;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .section-Eins2{
+    background-image: url(../img/Circulo.png);
+    background-color:#f3f3f3;
+    padding-top:0%;
+    padding-bottom:0%; 
+  }
+
+  .section-Eins2, .row{
+    margin-bottom: 0px; 
+  }
+
+  .eins2-image{
+    background-image: url(../img/children-593313_1920.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .btn-academy{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+  }
+
+  .btn-academy a{
+    background-color: #08bed8;
+    border-radius: 30px;
+  }
+
+
+  .section-standardkurs{
+    background-image: url(../img/Circulo.png);
+    background-color:#f3f3f3;
+    padding-top:0%;
+    padding-bottom:0%; 
+  }
+
+  .section-standardkurs .row{
+    margin-bottom: 0px; 
+  }
+
+  .standardkurs-image{
+    background-image: url(../img/student.jpg);
+    height: 400px;
+  }
+
+  .content-academia{
+    padding-top: 0%;
+  }
+
+  .section-onlinekurs{
+    background-image: url(../img/Circulo.png);
+    background-color:#f3f3f3;
+    padding-top:0%;
+    padding-bottom:0%; 
+  }
+
+  .section-onlinekurs .row{
+    margin-bottom: 0px;  
+  }
+
+  .onlinekurs-image {
+    background-image: url(../img/workplace-1245776_1920.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;  
+  }
+
+
+  .section-invierte{
+    background-image: url(../img/Circulo.png);
+    background-color:#f3f3f3;
+    padding-top:0%;
+    padding-bottom:5%;
+  }
+
+}
+
+
+@media (min-width: 768px) {
+    /* ... */
+}
+ 
+@media (min-width: 992px) {
+
+  body{
+   background-color: #f3f3f3;
+  }
+
+       /* h1 */
+  .t1{
+    font-size: 48px;
+    color: #000;
+  }
+  /* h2 */
+  .t2{
+    font-size: 44px;
+    color: #000;
+  }
+  /* h3 */
+  .t3{
+    font-size: 40px;
+    color: #08bed8;
+    text-align: center;
+  }
+
+  .t4{
+    font-size: 24px;
+    color:#949494;
+    text-align: center;
+  }
+  /* h4 */
+  .normal{
+    font-size: 18px;
+    color: #08bed8;
+  }
+  /* h5 */
+  .small{
+    font-size: 16px;
+    color: #000;
+  }
+  /* h6 */
+  .smaller{
+    font-size: 14px;
+    color: #949494;
+  }
+
+  .title-section{
+    background-color:#f3f3f3;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .section-Eins2{
+    background-image: url(../img/Circulo.png);
+    background-color:#f3f3f3;
+    padding-top:0%;
+    padding-bottom:0%; 
+  }
+
+  .section-Eins2, .row{
+    margin-bottom: 0px; 
+  }
+
+  .eins2-image{
+    background-image: url(../img/children-593313_1920.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .btn-academy{
+    padding-top: 5%;
+    text-align: left;
+  }
+
+  .btn-academy a{
+    background-color: #08bed8;
+    border-radius: 30px;
+  }
+
+
+  .section-standardkurs{
+    background-image: url(../img/Circulo.png);
+    background-color:#f3f3f3;
+    padding-top:0%;
+    padding-bottom:0%; 
+  }
+
+  .section-standardkurs .row{
+    margin-bottom: 0px; 
+  }
+
+  .standardkurs-image{
+    background-image: url(../img/student.jpg);
+    height: 400px;
+  }
+
+  .content-academia{
+    padding-top: 12%;
+  }
+
+  .section-onlinekurs{
+    background-image: url(../img/Circulo.png);
+    background-color:#f3f3f3;
+    padding-top:0%;
+    padding-bottom:0%; 
+  }
+
+  .section-onlinekurs .row{
+    margin-bottom: 0px;  
+  }
+
+  .onlinekurs-image {
+    background-image: url(../img/workplace-1245776_1920.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;  
+  }
+
+
+  .section-invierte{
+    background-image: url(../img/Circulo.png);
+    background-color:#f3f3f3;
+    padding-top:0%;
+    padding-bottom:5%;
+  }
+  /* ... */
+}
+ 
+@media (min-width: 1200px) {
+    /* ... */
+}

@@ -1,3 +1,28 @@
+.section-contant{
+    background-image: url(../img/Circulo.png);
+    background-color:#f3f3f3;
+    padding-top:5%;
+    padding-bottom:5%; 
+}
+
+.contents .container{
+width:80%;
+padding-top:5%;
+}
+
+.contents .container p{
+color:#949494;
+}
+
+.form{
+    padding-top:3%;
+}
+
+ .btn-contacto a{
+    background-color: #08bed8;
+    border-radius: 30px;
+  }
+
 .contactanos{
 
     padding: 1.5rem .25rem 2.25rem;
