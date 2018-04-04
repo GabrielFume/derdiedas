@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Contacto</title>
 </head>
  <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
@@ -39,8 +39,45 @@
     </div>
   </nav> -->
 
+
+    <header class="headroom header-fixed">
+      <nav>
+        <div class="nav-wrapper container">
+          <span id="brand">
+            <a href="#" class="brand-logo orange-text accent-2"><!-- <img src="/assets/img/logo_gris.png" width="150" height="100" alt="Logo"> --> Logo</a>
+          </span>
+          
+          <!-- <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a> -->
+          <ul class="right hide-on-med-and-down menu">
+            <!-- <li routerLinkActive="active" ><a routerLink="/index" style="color:#000;">Inicio</a></li> -->
+            <li><a href="index.html" style="color:#000;">Inicio</a></li>
+            <!-- <li><a href="home2.html" style="color:#000;">inicio 2</a></li> -->
+            <li><a href="equipo.html" style="color:#000;">Nosotros</a></li>
+            <li><a href="academia.html" style="color:#000;">Cursos</a></li>
+            <li><a href="contacto.html" style="color:#000;">Contacto</a></li>
+          </ul>
+          <div id="toggle">
+                  <div class="span" id="one"></div>
+                  <div class="span" id="two"></div>
+                  <div class="span" id="three"></div>
+          </div>
+          <div id="resize">
+            <ul id="menu">
+                  <li><a href="index.html" style="color:#000;">Inicio</a></li>
+                  <li><a href="equipo.html" style="color:#000;">Nosotros</a></li>
+                  <li><a href="academia.html" style="color:#000;">Cursos</a></li>
+                  <li><a href="contacto.html" style="color:#000;">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav> 
+    </header>
+      
+
+
+
 <!-- Nav var -->
-<header class="headroom header-fixed">
+<!-- <header class="headroom header-fixed">
   <nav >
     <div class="nav-wrapper">
             <span id="brand">
@@ -70,7 +107,7 @@
                   <li><a href="academia.html" style="color:#000;">Cursos</a></li>
                   <li><a href="contacto.html" style="color:#000;">Contacto</a></li>
             </ul>
-      </div>
+      </div> -->
 
       <!-- <div class="content">
             <h1>Smooth Fade-Up Navigation</h1>
@@ -228,7 +265,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <script src="assets/js/home.js"></script>
   <script src="assets/js/jquery.nicescroll.js"></script>
-  <script src="assets/js/headroom.min.js"></script>
+  <!-- <script src="assets/js/headroom.min.js"></script> -->
   <!-- <script src="assets/js/menu.js"></script> -->
   <script src="assets/js/wow.js"></script>
   <script>
@@ -239,13 +276,13 @@
 
 $(function(){
 
-var header = document.querySelector(".headroom");
-// construct an instance of Headroom, passing the element
-var headroom  = new Headroom(header);
-// initialise
-headroom.init();
+// var header = document.querySelector(".headroom");
+// // construct an instance of Headroom, passing the element
+// var headroom  = new Headroom(header);
+// // initialise
+// headroom.init();
 
-});
+// });
 
 
    $(document).ready(function() {

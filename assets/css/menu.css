@@ -39,7 +39,7 @@ nav {
 nav #brand {
       float: left;
       display: block;
-      margin-left: 84px;
+      margin-left: 14%;
       font-size: 30px;
       line-height: 70px;
       font-weight: bold;
@@ -54,7 +54,7 @@ nav #brand a {
  
 nav #menu {
       float: left;
-      left: 50%;
+      left: 44%;
       position: relative;
 }
  
