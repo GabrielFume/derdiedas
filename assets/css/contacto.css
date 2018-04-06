@@ -1,3 +1,11 @@
+.li{
+    font-family:'Noteworthy Light';
+    font-weight:normal;
+    font-size:20px;
+    color:#000;
+  }
+
+
 .section-contant{
     background-image: url(../img/Circulo.png);
     background-color:#f3f3f3;

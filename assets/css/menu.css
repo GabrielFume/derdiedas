@@ -35,11 +35,18 @@ nav {
       position: static;
       z-index: 1;
 }
+
+.li{
+    font-family:'Noteworthy Light';
+    font-weight:normal;
+    font-size:20px;
+    color:#000;
+  }
  
 nav #brand {
       float: left;
       display: block;
-      margin-left: 14%;
+      margin-left: 0%;
       font-size: 30px;
       line-height: 70px;
       font-weight: bold;
@@ -54,7 +61,7 @@ nav #brand a {
  
 nav #menu {
       float: left;
-      left: 44%;
+      left: 55%;
       position: relative;
 }
  
@@ -129,7 +136,7 @@ nav #menu li a {
 #resize #menu li {
       display: block;
       text-align: center;
-      padding: 20px 0;
+      padding: 10px 0;
       font-size: 50px;
       min-height: 50px;
       font-weight: bold;
@@ -138,7 +145,7 @@ nav #menu li a {
 }
  
 #resize li:nth-child(1) {
-      margin-top:140px;
+      margin-top:100px;
 }
  
 #resize #menu li a {
@@ -167,7 +174,7 @@ nav #menu li a {
 }
  
  
-@media(max-width: 768px) {
+@media(max-width: 990px) {
       #toggle {
             visibility: visible;
             opacity: 1;
@@ -189,7 +196,7 @@ nav #menu li a {
       }
 }
  
-@media(min-width: 768px) {
+@media(min-width: 990px) {
       #resize {
             visibility: hidden !important;
       }

@@ -11,6 +11,8 @@
 .nav{
 background-color: #fff;
 color:#000;
+height: 85px;
+line-height: 85px;
 
 }
 
@@ -207,7 +209,7 @@ body {
   /* h4 */
   .normal{
     font-size: 18px;
-    color: #08bed8;
+    color: #00c4b3;
   }
   /* h5 */
   .small{
@@ -234,7 +236,18 @@ body {
   }
 
   .btn-porque a{
-    background-color: #08bed8;
+    background-color: #00c4b3;
+    border-radius: 30px;
+  }
+
+  .btn-form{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+  }
+
+  .btn-form a{
+    background-color: #ff6b00;
     border-radius: 30px;
   }
 
@@ -352,7 +365,7 @@ body {
   /* h4 */
   .normal{
     font-size: 18px;
-    color: #08bed8;
+    color: #00c4b3;
   }
   /* h5 */
   .small{
@@ -379,7 +392,18 @@ body {
   }
 
   .btn-porque a{
-    background-color: #08bed8;
+    background-color: #00c4b3;
+    border-radius: 30px;
+  }
+
+  .btn-form{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+  }
+
+  .btn-form a{
+    background-color: #ff6b00;
     border-radius: 30px;
   }
 
@@ -473,7 +497,14 @@ body {
  
 @media (min-width: 992px) {
 
-         /* h1 */
+  .nav a{
+    font-family:'Noteworthy Light';
+    font-weight:normal;
+    font-size:20px;
+    color:#000;
+  }
+
+  /* h1 */
   .t1{
     font-size: 48px;
     color: #000;
@@ -498,7 +529,7 @@ body {
   /* h4 */
   .normal{
     font-size: 18px;
-    color: #08bed8;
+    color: #00c4b3;
   }
   /* h5 */
   .small{
@@ -531,7 +562,18 @@ body {
   }
 
   .btn-porque a{
-    background-color: #08bed8;
+    background-color: #00c4b3;
+    border-radius: 30px;
+  }
+
+  .btn-form{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+  }
+
+  .btn-form a{
+    background-color: #ff6b00;
     border-radius: 30px;
   }
 
