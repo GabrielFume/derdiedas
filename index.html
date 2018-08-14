@@ -44,7 +44,7 @@
   <link rel="stylesheet" href="assets/fonts/noteworthy/style.css">
   <!-- CSS -->
 
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"> -->
 
 <!-- JS -->
 
@@ -415,8 +415,8 @@
 <!-- JavaScript -->
 
 <!-- Jquery -->
-  <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
-  <script type="text/javascript" src="assets/js/jquery.3.3.1.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!-- <script type="text/javascript" src="assets/js/jquery.3.3.1.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
 
@@ -442,9 +442,7 @@
   <script src="assets/js/wow.js"></script>
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script src="responsiveslides.min.js"></script>
-
-  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  
 
 </body>
 
@@ -465,9 +463,10 @@
 
   //   });
 
-   $(document).ready(function() {
+
+    $(document).ready(function(){
     
-     $("html").niceScroll({cursorwidth:"10px" , zindex:"999" , cursorborder:"0px", cursorborderradius:"0px"});
+      $("html").niceScroll({cursorwidth:"10px" , zindex:"999" , cursorborder:"0px", cursorborderradius:"0px"});
 
      $(".listTotal-containUl , .userDetail").niceScroll({cursorwidth:"8px" , zindex:"0" , cursorborder:"0px", cursorborderradius:"0px", cursorcolor: "#fe7605"});
 
@@ -477,23 +476,24 @@
 
      $('.jarallax').jarallax ({
             velocidad : 0.2
-        })
+        });
 
-     $('.mySlider').slick({
-        autoplay:true;
-      });
+     // $('.mySlider').slick({
+     //    autoplay:true;
+     //  });
 
-     $(".rslides").responsiveSlides();
+     // $(".rslides").responsiveSlides();
 
-      $("#toggle").click(function() {
+     //  $("#toggle").click(function() {
+     //    $(this).toggleClass('on');
+     //    $("#resize").toggleClass("active");
+     //        $('.slider').slider();
 
-      $(this).toggleClass('on');
-      $("#resize").toggleClass("active");
+     //  });
+    
+    });
 
-      $('.slider').slider();
-
-      });
-
+  
 
 </script>
 
