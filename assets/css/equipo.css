@@ -1,13 +1,19 @@
  /* h1 */
   .t1{
+    font-family:'Noteworthy Light';
+    font-weight:normal;
     font-size: 36px;
   }
   /* h2 */
   .t2{
+    font-family:'Noteworthy Light';
+    font-weight:normal;
     font-size: 30px;
   }
   /* h3 */
   .t3{
+    font-family:'Noteworthy Light';
+    font-weight:normal;
     font-size: 24px;
   }
   /* h4 */
@@ -16,11 +22,21 @@
   }
   /* h5 */
   .small{
-    font-size: 16px;
+    font-family:'Noteworthy Light';
+    font-weight:normal;
+    font-size: 26px;
   }
   /* h6 */
   .smaller{
     font-size: 14px;
+  }
+
+  .p{
+    font-family:'Noteworthy Light';
+    font-weight:normal;
+    font-size: 16px;
+    color: #949494;
+
   }
 
 
@@ -29,16 +45,22 @@
 
       /* h1 */
   .t1{
+    font-family:'Noteworthy Light';
+    font-weight:normal;
     font-size: 48px;
     color: #000;
   }
   /* h2 */
   .t2{
+    font-family:'Noteworthy Light';
+    font-weight:normal;
     font-size: 44px;
     color: #000;
   }
   /* h3 */
   .t3{
+    font-family:'Noteworthy Light';
+    font-weight:normal;
     font-size: 40px;
     color:#949494;
     text-align: center;
@@ -57,7 +79,7 @@
   /* h5 */
   .small{
     font-size: 16px;
-    color: #000;
+    color: #949494;
   }
   /* h6 */
   .smaller{
@@ -95,11 +117,33 @@
 
 
 .img-top{
-  padding-top: 93px;
+    padding-top: 93px;
     background-image: url(assets/img/Estacion_tren.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 350px;
+}
+
+.team-card{
+    width: 14.2em;
+    height: 14.2em;
+    border-radius: 50%;
+    background-image: linear-gradient(45deg, #029cf5 0%, #15eded 100%);
+    margin: 0 auto;
+    position: relative;
+    z-index: 5;
+    /* filter: grayscale(100%); */
+    transition: 0.2s linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-image {
+    height: 200px;
+    width: 200px;
+    margin-left: 60px; 
+    border-radius: 100%;
 }
 
 @media screen and (min-width: 600px) {

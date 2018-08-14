@@ -1,13 +1,19 @@
  /* h1 */
   .t1{
+    font-family:'Noteworthy Light';
+    font-weight:normal;
     font-size: 36px;
   }
   /* h2 */
   .t2{
+    font-family:'Noteworthy Light';
+    font-weight:normal;
     font-size: 30px;
   }
   /* h3 */
   .t3{
+    font-family:'Noteworthy Light';
+    font-weight:normal;
     font-size: 24px;
   }
   /* h4 */
@@ -29,16 +35,22 @@
 
       /* h1 */
   .t1{
+    font-family:'Noteworthy Light';
+    font-weight:normal;
     font-size: 48px;
     color: #000;
   }
   /* h2 */
   .t2{
+    font-family:'Noteworthy Light';
+    font-weight:normal;
     font-size: 44px;
     color: #000;
   }
   /* h3 */
   .t3{
+    font-family:'Noteworthy Light';
+    font-weight:normal;
     font-size: 40px;
     color:#949494;
     text-align: center;
@@ -76,16 +88,22 @@
 
   /* h1 */
   .t1{
+    font-family:'Noteworthy Light';
+    font-weight:normal;
     font-size: 48px;
     color: #000;
   }
   /* h2 */
   .t2{
+    font-family:'Noteworthy Light';
+    font-weight:normal;
     font-size: 44px;
     color: #000;
   }
   /* h3 */
   .t3{
+    font-family:'Noteworthy Light';
+    font-weight:normal;
     font-size: 40px;
     color: #08bed8;
     text-align: center;
@@ -209,16 +227,22 @@
 
        /* h1 */
   .t1{
+    font-family:'Noteworthy Light';
+    font-weight:normal;
     font-size: 48px;
     color: #000;
   }
   /* h2 */
   .t2{
+    font-family:'Noteworthy Light';
+    font-weight:normal;
     font-size: 44px;
     color: #000;
   }
   /* h3 */
   .t3{
+    font-family:'Noteworthy Light';
+    font-weight:normal;
     font-size: 40px;
     color: #08bed8;
     text-align: center;
